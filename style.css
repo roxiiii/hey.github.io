@@ -29,7 +29,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: myFont;
-    font-size: 18px;
 }
 
 .bloc button{
@@ -57,7 +56,7 @@ body{
     }
 
     #wrapper{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .bloc button{
