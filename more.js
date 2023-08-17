@@ -8,7 +8,6 @@ var quotes = [
     ' You make me feel so good',
     'You light up my mood everytime we talk',
     'I\'m glad we met',
-    '"You were created so carefully, your heart and your mind and to be completely honest, you\'re a really hard person to find." - this quote reminded me of you:)',
     'You\'re special',
     'Thank you for coming into my life',
     'Your voice is my favourite sound',
