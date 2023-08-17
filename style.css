@@ -1,0 +1,136 @@
+@font-face{
+	src: url("../media/Courgette/Courgette-Regular.ttf");
+	font-family: myFont;
+}
+
+body{
+    background-color: #630707;
+}
+
+.quote{
+    background-color:#ffffff;
+	opacity:0.9;
+	overflow:auto;
+	width: 20%;
+	height: 65%;
+	border-radius: 5px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wrapper{
+    color:#630707;
+    text-align: center;
+    padding:0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: myFont;
+    font-size: 18px;
+}
+
+.bloc button{
+    position: absolute;
+    border-radius: 10%;
+    width: auto;
+    height:auto;
+    top: 78%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc p{
+    font-family: myFont;
+    padding: 2%;
+    color:#630707;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .quote{
+        width: 50%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 18px;
+    }
+
+    .bloc button{
+        left: 73%;
+        transform: translate(-78%, -73%);
+    }
+}
+
+@media only screen and (min-width: 601px)
+{
+    .quote{
+        width: 50%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 19px;
+    }
+
+    .bloc button{
+        left: 73.5%;
+        transform: translate(-78%, -73.5%);
+    }
+
+}
+
+@media only screen and (min-width: 768px)
+{
+    .quote{
+        width: 40%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 20px;
+    }
+
+    .bloc button{
+        left: 69%;
+        transform: translate(-78%, -69%);
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .quote{
+        width: 30%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 22px;
+    }
+
+    .bloc button{
+        left: 64%;
+        transform: translate(-78%, -64%);
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .quote{
+        width: 30%;
+	    height: 40%;
+    }
+
+    #wrapper{
+        font-size: 25px;
+    }
+
+    .bloc button{
+        left: 64.5%;
+        transform: translate(-78%, -64.5%);
+    }
+}
