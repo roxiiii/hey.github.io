@@ -21,6 +21,26 @@ body {
   perspective: 1000px;
 }
 
+.mesaj a{
+    position: absolute;
+    border-radius: 10%;
+    width: auto;
+    height:auto;
+    top: 10%;
+    left:10%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    z-index:4;
+}
+
+.mesaj p{
+    font-family: myFont;
+    text-align: center;
+    padding: 2%;
+    color:#630707;
+}
+
 .night {
   position: fixed;
   left: 50%;
