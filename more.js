@@ -23,6 +23,17 @@ var quotes = [
     'You\'re my favourite notification',
     'I\'m proud of you',
     'Always remember, my heart holds you when my arms cannot.',
+    'My heart made its choice, and it chose you',
+    'Everything has been better since you',
+    'Whenever I talk to you, I\'just happy',
+    'Spending time with you is so precious and perfect',
+    'You light up my world, my soul, my heart... You\'re my light',
+    'You stole my heart, I stole yours... but I know that both of us will keep them safe',
+    'Thank you so much for all the moments you\'ve been there for me',
+    'I will always be there for you',
+    'As soon as I will be able, I will come to visit you',
+    'You make my heart so happy',
+    
 ]
 
 function newQuote()
@@ -49,3 +60,11 @@ slides.children[newIndex].dataset.active = true
 delete activeSlide.dataset.active
 })
 })
+
+
+onload = () => {
+    const c = setTimeout(() => {
+      document.body.classList.remove("not-loaded");
+      clearTimeout(c);
+    }, 1000);
+  };

@@ -66,6 +66,25 @@ body{
     color:#630707;
 }
 
+.bloc3{
+    position: absolute;
+    border-radius: 10%;
+    width: 15%;
+    height:auto;
+    top: 72%;
+    left:42.5%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc3 p{
+    font-family: myFont;
+    text-align: center;
+    padding: 2%;
+    color:#630707;
+}
+
 /*slider*/
 .carousel{
     width: 100vw;
@@ -138,12 +157,19 @@ body{
     }
 
     .bloc button{
-        left: 73%;
+        left: 72%;
         transform: translate(-78%, -73%);
     }
     
     .bloc2{
-        left:50%;
+        left: 34%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+
+    .bloc3{
+        left: 53%;
+        top: 78%;
         transform: translate(-78%, -73%);
     }
 
@@ -172,13 +198,24 @@ body{
         left: 73.5%;
         transform: translate(-78%, -73.5%);
     }
+    
+    .bloc2{
+        left: 30%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+
+    .bloc3{
+        left: 53%;
+        top: 78%;
+        transform: translate(-78%, -73%);
+    }
+
     .slide>img{
-        padding-top: 30%;
-        padding-bottom: 30%;
         max-width: 100%;
         max-height: 100%;
-        top:1rem;
-        bottom: 1rem;
+        top :5rem;
+        bottom: 5rem;
     }
 
 }
@@ -198,6 +235,25 @@ body{
         left: 69%;
         transform: translate(-78%, -69%);
     }
+
+    .bloc2{
+        left: 35%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+
+    .bloc3{
+        left: 53%;
+        top: 78%;
+        transform: translate(-78%, -73%);
+    }
+
+    .slide>img{
+        max-width: 100%;
+        max-height: 100%;
+        top:5rem;
+        bottom: 5rem;
+    }
 }
 
 @media only screen and (min-width: 992px)
@@ -214,6 +270,16 @@ body{
     .bloc button{
         left: 64%;
         transform: translate(-78%, -64%);
+    }
+    .bloc2{
+        left: 40%;
+        top: 77%;
+        transform: translate(-78%, -73%);
+    }
+    .bloc3{
+        left: 54%;
+        top: 78%;
+        transform: translate(-78%, -73%);
     }
 }
 
@@ -235,5 +301,10 @@ body{
     .slide>img{
         padding-top: 2%;
         padding-bottom: 2%;
+    }
+    .bloc2{
+        left: 38%;
+        top: 77%;
+        transform: translate(-78%, -73%);
     }
 }
