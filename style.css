@@ -33,10 +33,11 @@ body{
 
 .bloc button{
     position: absolute;
-    border-radius: 10%;
-    width: auto;
-    height:auto;
-    top: 78%;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 77.35%;
+    margin-left: -5%;
     outline: none;
     border: none;
     background-color: #ffffff;
@@ -51,39 +52,312 @@ body{
 .bloc2{
     position: absolute;
     border-radius: 10%;
-    width: auto;
-    height:auto;
-    top: 73%;
-    left:35%;
+    width: 9%;
+    height:7%;
+    margin-top: 5%;
+    margin-left:7.75%;
     outline: none;
     border: none;
     background-color: #ffffff;
 }
 
-.bloc2 p{
+.bloc2 a{
+    text-decoration: none;
     font-family: myFont;
-    padding: 2%;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
     color:#630707;
 }
 
 .bloc3{
     position: absolute;
-    border-radius: 10%;
-    width: 15%;
+    border-radius: 15%;
+    width: 12%;
     height:auto;
     top: 72%;
-    left:42.5%;
+    margin-left: -7.35%;
     outline: none;
     border: none;
     background-color: #ffffff;
 }
 
-.bloc3 p{
+.bloc3 a{
+    text-decoration: none;
     font-family: myFont;
     text-align: center;
-    padding: 2%;
+    padding: 0;
     color:#630707;
 }
+.bloc4{
+    position: absolute;
+    border-radius: 10%;
+    width: 12%;
+    height:auto;
+    top: 82.37%;
+    left:51.25%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.bloc4 a{
+    text-decoration: none;
+    font-family: myFont;
+    text-align: center;
+    padding: 0;
+    color:#630707;
+}
+
+#letter1Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 10%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter2Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 20%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter3Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 30%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter4Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 40%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter5Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 50%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter6Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 60%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter7Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 70%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter8Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 80%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter9Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 90%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter10Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 100%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+
+#letter11Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 110%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter12Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 120%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+#letter13Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 130%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+#letter14Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:8%;
+    top: 140%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter15Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 150%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+#letter16Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 160%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+#letter17Button{
+    position: absolute;
+    border-radius: 15%;
+    width: 9%;
+    height:7%;
+    top: 170%;
+    left:45%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    font-family: myFont;
+    color:#630707;
+}
+
+::-webkit-scrollbar{
+    width:6px;
+    background-color:#2e3033;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,#34443c);
+    border-radius:6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent,#22232c);
+}
+
 
 /*slider*/
 .carousel{

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Letters</title>
+    <style>
+        .content {
+            display: none; /* Hidden by default */
+            background-color: #ffffff;
+            opacity: 0.9;
+            overflow: auto;
+            width: 50%;
+            height: 70%;
+            padding: 20px;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;   
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            text-align: justify;
+            z-index:3;
+        }
+
+        #wrapper {
+            color: #630707;
+            text-align: justify;
+            font-family: Arial, sans-serif;
+        }
+
+        .close-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border-radius: 50%;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            background-color: #630707;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #8a0c0c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Pop-up container -->
+    <div class="content" id="popup">
+        <button class="close-btn" onclick="closePopup()">X</button>
+        <div id="wrapper">
+            <div id="popupText"></div>
+        </div>
+    </div>
+
+    <!-- Letter Buttons -->
+    <div class="button-container">
+        <button id="letter1Button" onclick="openLetter(1)">My first letter to you</button>
+        <button id="letter2Button" onclick="openLetter(2)">About the painting from you</button>
+        <button id="letter3Button" onclick="openLetter(3)">Little poem</button>
+        <button id="letter4Button" onclick="openLetter(4)">How happy you make me</button>
+        <button id="letter5Button" onclick="openLetter(5)">"I know you" and "You know me"</button>
+        <button id="letter6Button" onclick="openLetter(6)">Reasons why I love you</button>
+        <button id="letter7Button" onclick="openLetter(7)">Open when you need motivation</button>
+        <button id="letter8Button" onclick="openLetter(8)">Open when you can't sleep</button>
+        <button id="letter9Button" onclick="openLetter(9)">Open when the distance feels like too much</button>
+        <button id="letter10Button" onclick="openLetter(10)">Open when you're worried about the future</button>
+        <button id="letter11Button" onclick="openLetter(11)">Open when you're stressed</button>
+        <button id="letter12Button" onclick="openLetter(12)">Open when you miss me</button>
+        <button id="letter13Button" onclick="openLetter(13)">Open before we see each other in real life</button>
+        <button id="letter14Button" onclick="openLetter(14)">Open after we see each other in real life</button>
+        <button id="letter15Button" onclick="openLetter(15)">Open on your swearing day</button>
+        <button id="letter16Button" onclick="openLetter(16)">When you become a policeman</button>
+        <button id="letter17Button" onclick="openLetter(17)">Open when we argue</button>
+    </div>
+
+    <script src="more.js"></script>
+
+</body>
+</html>
